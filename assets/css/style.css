@@ -1,0 +1,29 @@
+body {
+	background: url(../images/background.png);
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1 {
+	background-color: orange;
+	text-align: center;
+	font-weight: 800;
+	font-size: 60px;
+}
+
+#directions {
+width: 600px;
+font-size: 20px;
+text-align: center;
+background-color: rgba(64, 217, 224, 0.95);
+color: blue;
+}
+
+/*.row {
+	align-items: center;*/
+}
+
+img {
+	height: 200px;
+}
+
