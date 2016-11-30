@@ -6,7 +6,9 @@
  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+ <!-- JS & JQuery links -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+ 
 </head>
 <body>
 	<div class="container" class="col-md-8">
@@ -20,9 +22,6 @@
 	</div>
 
 	<div class="row" >
-<!-- 	  <div class="col-xs-0 col-md-2"> -->
-	    <!-- empty div to offest pictures -->
-	  <!-- </div> -->
 
 	  <div class="col-xs-3 col-md-2 col-md-offset-2" >
 	    <a href="#" class="thumbnail">
@@ -49,8 +48,20 @@
 	  </div>
 	</div>
 
-<div id= ""></div>
+<div class="container" class="col-md-12">
+	<div id= "goal" class="col-md-4">
+		<p> Your Goal is: <span id="total"></span>
+		</p>
+	</div>
 
+	<div id = "score" class="col-md-4">
+	</div>
 
+	<div id = "points" class="col-md-4">
+		<p>Your Total Score is:<span id="soFar"></span>
+		</p>
+	</div>
+</div>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>
