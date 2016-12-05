@@ -7,12 +7,16 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
  <!-- JS & JQuery links -->
-  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow" rel="stylesheet">
  
 </head>
 <body>
+
 	<div class="container" class="col-md-8">
  		<h1 class="page-header"> Crystal Collector </h1>
+ 		
 	</div>
 
 	<div id="directions" class="container" class="col-md-4">
@@ -25,25 +29,25 @@
 
 	  <div class="col-xs-3 col-md-2 col-md-offset-2" >
 	    <a href="#" class="thumbnail">
-	      <img class = "crystals" src="assets/images/fire-crystal.png" alt="fire crystal" style="height:200px" data-crystalValue="10">
+	      <img class = "crystals" src="assets/images/fire-crystal.png" alt="fire crystal" style="height:200px" data-crystalvalue="10">
 	    </a>
 	  </div>
 	
 	  <div class="col-xs-3 col-md-2">
 	    <a href="#" class="thumbnail">
-	      <img class = "crystals" src="assets/images/water-crystal.png" alt="water crystal" style="height:200px" data-crystalValue="2">
+	      <img class = "crystals" src="assets/images/water-crystal.png" alt="water crystal" style="height:200px" data-crystalvalue="3">
 	    </a>
 	  </div>
 
 		  <div class="col-xs-3 col-md-2">
 	    <a href="#" class="thumbnail">
-	      <img class = "crystals" src="assets/images/earth-crystal.png" alt="earth crystal" style="height:200px" data-crystalValue="3">
+	      <img class = "crystals" src="assets/images/earth-crystal.png" alt="earth crystal" style="height:200px" data-crystalvalue="7">
 	    </a>
 	  </div>
 	
 		  <div class="col-xs-3 col-md-2">
 	    <a href="#" class="thumbnail">
-	      <img class = "crystals" src="assets/images/wind-crystal.png" alt="wind crystal" style="height:200px" data-crystalValue="7">
+	      <img class = "crystals" src="assets/images/wind-crystal.png" alt="wind crystal" style="height:200px" data-crystalvalue="2">
 	    </a>
 	  </div>
 	</div>
@@ -54,13 +58,15 @@
 		</p>
 	</div>
 
-	<div id = "score" class="col-md-4">	</div>
+	<div id = "score" class="col-md-4">	
+	</div>
 
 	<div id = "points" class="col-md-4">
 		<p>Your Total Score is:<span id="soFar"></span>
 		</p>
 	</div>
 </div>
+
 <script src="assets/javascript/game.js"></script>
 </body>
 </html>
